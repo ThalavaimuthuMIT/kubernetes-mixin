@@ -10,7 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- hosts: master
+- name: install apache packages
+  hosts: master
   become: true
   tasks:
     - name: installing web components
