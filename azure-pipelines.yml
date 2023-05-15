@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- name: install apache packages
   hosts: master
   become: true
   tasks:
