@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  hosts: master
+  hosts: all
   become: true
   tasks:
     - name: installing web components
